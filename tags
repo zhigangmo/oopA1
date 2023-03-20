@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Request	Request.java	/^    public Request(String topic, int hours) {$/;"	m	class:Request
+Request	Request.java	/^public class Request {$/;"	c
+Student	Student.java	/^    public Student(String name) {$/;"	m	class:Student
+Student	Student.java	/^public class Student {$/;"	c
+Tutor	Tutor.java	/^     public Tutor(String name, String topic, int hoursTaught) {$/;"	m	class:Tutor
+Tutor	Tutor.java	/^    public Tutor(String name, int hourlyRate) {$/;"	m	class:Tutor
+Tutor	Tutor.java	/^public class Tutor {$/;"	c
+TutorApp	TutorApp.java	/^public class TutorApp {$/;"	c
+TutorAssignment	TutorAssignment.java	/^    public TutorAssignment(Tutor tutor, int hours) {$/;"	m	class:TutorAssignment
+TutorAssignment	TutorAssignment.java	/^public class TutorAssignment {$/;"	c
+TutorManager	TutorManager.java	/^    public TutorManager() {$/;"	m	class:TutorManager
+TutorManager	TutorManager.java	/^public class TutorManager {$/;"	c
+addExpertise	Tutor.java	/^    public void addExpertise(String topic, int expertiseLevel) {$/;"	m	class:Tutor
+addHoursTaught	Tutor.java	/^    public void addHoursTaught(int hours) {$/;"	m	class:Tutor
+addStudent	TutorManager.java	/^    public void addStudent(String studentName) {$/;"	m	class:TutorManager
+addTutor	Student.java	/^    public void addTutor(String tutorName, String topic, int hoursTaught) {$/;"	m	class:Student
+addTutor	TutorManager.java	/^    public void addTutor(String tutorName, String topic, int hours, double hourlyRate) {$/;"	m	class:TutorManager
+addTutorAssignment	Request.java	/^    public void addTutorAssignment(TutorAssignment tutorAssignment) {$/;"	m	class:Request
+addTutorExpertise	TutorManager.java	/^    public void addTutorExpertise(String tutorName, String topic, int expertiseLevel) {$/;"	m	class:TutorManager
+assignTutor	TutorManager.java	/^    public void assignTutor(String studentName, String topic, int hoursRequested) {$/;"	m	class:TutorManager
+expertise	Tutor.java	/^    private Map<String, Integer> expertise;$/;"	f	class:Tutor	file:
+findBestTutor	TutorManager.java	/^    private Tutor findBestTutor(String topic) {$/;"	m	class:TutorManager	file:
+getExpertiseLevel	Tutor.java	/^    public int getExpertiseLevel(String topic) {$/;"	m	class:Tutor
+getHourlyRate	Tutor.java	/^    public int getHourlyRate() {$/;"	m	class:Tutor
+getHours	Request.java	/^    public int getHours() {$/;"	m	class:Request
+getHours	TutorAssignment.java	/^    public int getHours() {$/;"	m	class:TutorAssignment
+getHoursTaught	Tutor.java	/^    public int getHoursTaught() {$/;"	m	class:Tutor
+getName	Student.java	/^    public String getName() {$/;"	m	class:Student
+getName	Tutor.java	/^    public String getName() {$/;"	m	class:Tutor
+getStudent	TutorManager.java	/^    public Student getStudent(String studentName) {$/;"	m	class:TutorManager
+getTopic	Request.java	/^    public String getTopic() {$/;"	m	class:Request
+getTutor	TutorAssignment.java	/^    public Tutor getTutor() {$/;"	m	class:TutorAssignment
+getTutor	TutorManager.java	/^    public Tutor getTutor(String tutorName) {$/;"	m	class:TutorManager
+getTutorAssignments	Request.java	/^    public List<TutorAssignment> getTutorAssignments() {$/;"	m	class:Request
+getTutors	Student.java	/^    public ArrayList<Tutor> getTutors() {$/;"	m	class:Student
+hasExpertise	Tutor.java	/^    public boolean hasExpertise(String topic) {$/;"	m	class:Tutor
+hourlyRate	Tutor.java	/^    private int hourlyRate;$/;"	f	class:Tutor	file:
+hours	Request.java	/^    private int hours;$/;"	f	class:Request	file:
+hours	TutorAssignment.java	/^    private int hours;$/;"	f	class:TutorAssignment	file:
+hoursTaught	Tutor.java	/^    private int hoursTaught;$/;"	f	class:Tutor	file:
+main	TutorApp.java	/^    public static void main(String[] args) {$/;"	m	class:TutorApp
+name	Student.java	/^    private String name;$/;"	f	class:Student	file:
+name	Tutor.java	/^    private String name;$/;"	f	class:Tutor	file:
+processCommand	TutorManager.java	/^    public void processCommand(String[] commandParts) {$/;"	m	class:TutorManager
+setHours	TutorAssignment.java	/^    public void setHours(int hours) {$/;"	m	class:TutorAssignment
+students	TutorManager.java	/^    private Map<String, Student> students;$/;"	f	class:TutorManager	file:
+toString	Student.java	/^    public String toString() {$/;"	m	class:Student
+topic	Request.java	/^    private String topic;$/;"	f	class:Request	file:
+tutor	TutorAssignment.java	/^    private Tutor tutor;$/;"	f	class:TutorAssignment	file:
+tutorAssignments	Request.java	/^    private List<TutorAssignment> tutorAssignments;$/;"	f	class:Request	file:
+tutors	Student.java	/^    private ArrayList<Tutor> tutors;$/;"	f	class:Student	file:
+tutors	TutorManager.java	/^    private Map<String, Tutor> tutors;$/;"	f	class:TutorManager	file:
